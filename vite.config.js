@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/kottarivaibhav.github.io', // Ensure this matches your repository name exactly
+  base: '/kottarivaibhav.github.io/', // Base URL for your GitHub Pages site
   build: {
-    outDir: 'dist', // Ensure this matches your deploy directory
-    assetsDir: 'assets' // This can be customized as needed
+    outDir: 'dist', // Output directory
+    assetsDir: 'assets' // Assets directory
   }
 });
